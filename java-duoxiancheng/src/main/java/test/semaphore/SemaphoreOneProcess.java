@@ -1,12 +1,15 @@
-package test;
+package test.semaphore;
 
 import java.util.concurrent.Semaphore;
 
-public class SemaphoreApplication {
+/**
+ * 使用semaphore进行并发控制
+ */
+public class SemaphoreOneProcess {
 
     static int count = 0;
 
-    static final Semaphore s = new Semaphore(1);
+    static final Semaphore s = new Semaphore(2);
 
     public static void main(String[] args) throws InterruptedException {
         Thread t1 = new Thread(() -> {
