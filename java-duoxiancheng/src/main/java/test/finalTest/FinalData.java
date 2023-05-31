@@ -1,9 +1,5 @@
 package test.finalTest;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
-import jdk.nashorn.internal.objects.annotations.Setter;
-import lombok.Data;
-
 
 public class FinalData {
 
