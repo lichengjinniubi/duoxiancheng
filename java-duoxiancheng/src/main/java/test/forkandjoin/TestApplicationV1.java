@@ -13,7 +13,28 @@ public class TestApplicationV1 {
                  "hello me",
                  "hello fork",
                  "hello join",
-                 "fork join in world"};
+                 "fork join in world",
+                "hello world",
+                "hello me",
+                "hello fork",
+                "hello join",
+                "fork join in world",
+                "hello world",
+                "hello me",
+                "hello fork",
+                "hello join",
+                "fork join in world",
+                "hello world",
+                "hello me",
+                "hello fork",
+                "hello join",
+                "fork join in world",
+                "hello world",
+                "hello me",
+                "hello fork",
+                "hello join",
+                "fork join in world"
+        };
 
         // 创建 ForkJoin 线程池
          ForkJoinPool fjp =
