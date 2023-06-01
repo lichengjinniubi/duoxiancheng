@@ -5,6 +5,10 @@ import java.util.Map;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 
+
+/**
+ * 分治任务查找字符串中每个单词的数量
+ */
 public class TestApplicationV1 {
 
 

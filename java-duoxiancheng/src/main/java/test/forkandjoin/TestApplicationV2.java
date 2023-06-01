@@ -3,6 +3,10 @@ package test.forkandjoin;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 
+
+/**
+ * 分治任务累加数据
+ */
 public class TestApplicationV2 {
 
     private static int SPLIT_NUM = 100;
@@ -31,6 +35,7 @@ public class TestApplicationV2 {
        @Override
        protected Integer compute() {
            int sum = 0;
+           //是否还需要分割任务
            if(endNum - startNum <= splitNum){
                for(int i = startNum; i <= endNum; i++){
                    sum += i;
